@@ -22,17 +22,48 @@
 <body>
     <!-- Bootstrap Breakpoints: // Small devices (cellphones, 576px and up) Small @media (min-width: 576px) // Medium devices (tablets, 768px and up) @media (min-width: 768px) // Large devices (desktops, 992px and up)  @media (min-width: 992px) // Extra large devices (large desktops, 1200px and up)
     @media (min-width: 1200px)  -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <!-- Navbar content -->
+        <a class="navbar-brand" href="#">Start Bootstrap</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav ml-10 mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Service</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
 
     <div class="container">
         <div class="row">
-            <div class="col-9">
-                <h1>Places I love and want to go back to</h1>
+            <div class="jumbotron mt-4">
+                <h1 class="display-4">Welcome, fellow travellers!</h1>
+                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et nobis placeat adipisci eum?
+                    Reprehenderit consectetur quo expedita quisquam? Tempore consequatur alias a eligendi voluptates
+                    voluptatem vel consectetur.</p>
+                <p class="lead">
+                    <a class="btn btn-primary btn-lg" href="#" role="button">Travel with me!</a>
+                </p>
             </div>
         </div>
         <div class="row">
             <div class="col-xl-3 col-md-6 col-xs-12">
                 <div class="card" style="width: 18rem;">
-                    <img src="img/img4.jpeg" class="card-img-top" alt="...">
+                    <img src="img/img4.jpeg" class="card-img-top" alt="..." width="500" height="auto">
                     <div class="card-body">
                         <h5 class="card-title">Uros Aruma Uro, Peru</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
@@ -43,18 +74,19 @@
             </div>
             <div class="col-xl-3 col-md-6 col-xs-12">
                 <div class="card" style="width: 18rem;">
-                    <img src="img/img1.jpeg" class="card-img-top" alt="...">
+                    <img src="img/img1.jpeg" class="card-img-top" alt="..." width="500" height="auto">
                     <div class="card-body">
                         <h5 class="card-title">Copenhagen, Denmark</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                             the card's content.</p>
-                        <a href="https://www.visitcopenhagen.com/copenhagen-tourist" class="btn btn-primary">Let's go!</a>
+                        <a href="https://www.visitcopenhagen.com/copenhagen-tourist" class="btn btn-primary">Let's
+                            go!</a>
                     </div>
                 </div>
             </div>
             <div class="col-xl-3 col-md-6 col-xs-12">
                 <div class="card" style="width: 18rem;">
-                    <img src="img/img2.jpeg" class="card-img-top" alt="...">
+                    <img src="img/img2.jpeg" class="card-img-top" alt="..." width="500" height="auto">
                     <div class="card-body">
                         <h5 class="card-title">London, England</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
@@ -65,7 +97,7 @@
             </div>
             <div class="col-xl-3 col-md-6 col-xs-12">
                 <div class="card" style="width: 18rem;">
-                    <img src="img/img3.jpeg" class="card-img-top" alt="...">
+                    <img src="img/img3.jpeg" class="card-img-top" alt="..." width="500" height="auto">
                     <div class="card-body">
                         <h5 class="card-title">La Paz, Bolivia</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
@@ -75,6 +107,13 @@
                 </div>
             </div>
         </div>
+
+        <footer class="footer footer-dark bg-dark" height="80">
+
+            <p>Copyright Your Website 2019</p>
+
+        </footer>
+
     </div>
 </body>
 
